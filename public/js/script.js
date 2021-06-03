@@ -25,7 +25,7 @@ $(document).ready(function ($) {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Technical Consultant", "Software Engineer.", "Web Developer.", "enVista LLC.", "DePauw University."],
+        strings: ["Software Engineer.", "Technical Consultant.", "Web Developer.", "enVista LLC.", "DePauw University."],
         typeSpeed: 90,
         loop: true,
         startDelay: 1000,
