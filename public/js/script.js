@@ -91,7 +91,7 @@ $(document).ready(function ($) {
     });
 
     $("#navigation li a").click(function () {
-        e.preventDefault();
+        // e.preventDefault();
 
         var targetElement = $(this).attr("href");
         var targetPosition = $(targetElement).offset().top;
